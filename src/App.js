@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import AppRouter from "./router";
 import { Provider as StoreProvider } from "react-redux";
@@ -6,15 +5,6 @@ import { Provider as StoreProvider } from "react-redux";
 // import thunk from 'redux-thunk';
 // import axios from 'axios';
 import store from "./redux/store";
-=======
-import React from 'react';
-import AppRouter from './router';
-import { Provider as StoreProvider } from 'react-redux';
-// import { createStore, applyMiddleware, compose } from 'redux';
-// import thunk from 'redux-thunk';
-// import axios from 'axios';
-import store from './redux/store';
->>>>>>> dfe6716159433c670a50fd8d94d11bb31f1e5fcd
 
 /**
     const initialState = {
@@ -123,7 +113,6 @@ import store from './redux/store';
 */
 
 const App = () => {
-<<<<<<< HEAD
   return (
     <StoreProvider store={store}>
       <AppRouter />
@@ -132,13 +121,3 @@ const App = () => {
 };
 
 export default App;
-=======
-    return (
-        <StoreProvider store={store}>
-            <AppRouter />
-        </StoreProvider>
-    )
-}
-
-export default App
->>>>>>> dfe6716159433c670a50fd8d94d11bb31f1e5fcd
