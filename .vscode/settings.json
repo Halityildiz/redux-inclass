@@ -6,6 +6,7 @@
     "*.gitignore.*": true,
     "*.vscode": true,
     "*.vscode.*": true,
+<<<<<<< HEAD
     "*README": true,
     "*README.*": true,
     "*node_modules": true,
@@ -14,6 +15,11 @@
     "*package-lock.*": true,
     "*package": true,
     "*package.*": true,
+=======
+    "*node_modules": true,
+    "*node_modules.*": true,
+    "*package-lock": true,
+>>>>>>> dfe6716159433c670a50fd8d94d11bb31f1e5fcd
     "*public": true,
     "*public.*": true,
     "*src.*": true
