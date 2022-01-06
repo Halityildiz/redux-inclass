@@ -7,7 +7,7 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
-
+import axios from "axios";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUserList } from "../redux/thunks/appThunks";
@@ -26,7 +26,7 @@ const Main = () => {
 
   useEffect(() => {
     dispatch(getUserList());
-  });
+  }, []);
 
   return (
     <TableContainer component={Paper}>

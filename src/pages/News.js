@@ -16,7 +16,7 @@ const News = () => {
 
   useEffect(() => {
     dispatch(getNewsThunk());
-  });
+  }, []);
 
   return (
     <Box
