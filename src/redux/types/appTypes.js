@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 export const SET_LOADING_TRUE = "SET_LOADING_TRUE";
 export const SET_LOADING_FALSE = "SET_LOADING_FALSE";
+=======
+export const SET_LOADING_TRUE = 'SET_LOADING_TRUE';
+export const SET_LOADING_FALSE = 'SET_LOADING_FALSE';
+>>>>>>> dfe6716159433c670a50fd8d94d11bb31f1e5fcd
